@@ -1,7 +1,7 @@
 def initializeUpdateValidation():
     from arcgis.gis import GIS
     print("---Attempting to connect to GIS Portal---")
-    gis = GIS('https://ah4r.maps.arcgis.com/', 'mraghfar_admin', 'Esri_AH4R_2022!') #connects to GIS using your credentials
+    gis = GIS('') #connects to GIS using your credentials
     print('---Connected---')
     print
     assetid = 'f9d8e4bb87cf4ce19cc62fb2eef99a0f' #hosted container ID for asset layer
